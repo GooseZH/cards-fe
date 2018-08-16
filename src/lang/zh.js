@@ -1,6 +1,7 @@
 export default {
   route: {
     dashboard: '首页',
+    store: `店铺管理`,
     introduction: '简述',
     documentation: '文档',
     guide: '引导页',
@@ -61,6 +62,15 @@ export default {
     theme: '换肤',
     clipboardDemo: 'Clipboard',
     i18n: '国际化'
+  },
+  store: {
+    table: {
+      name: `店铺名称`,
+      address: `店铺地址`,
+      phone: `联系电话`,
+      type: `门店类型`,
+      homePage: `主页`
+    }
   },
   navbar: {
     logOut: '退出登录',
